@@ -17,6 +17,7 @@ Modeling sortings for theory of algorithms
 1. Створити поля-лічильники.
 
 (наприклад)
+
  ![image](https://github.com/NolanGre/Sort-algorithms/assets/127392871/208f85d5-79ad-4abc-b611-bda6e3aeb855)
 
 2. В ключових точках додати інкрементації лічільників.
