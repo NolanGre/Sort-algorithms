@@ -1,7 +1,7 @@
 public class SelectionSort {
     public static void main(String[] args) {
 
-        int[] arr = {54, 65, 7, 33, 86, 29, 11, 91, 12};  //var: 21
+        int[] arr = {28, 76, 27, 10, 5, 35, 95, 16, 33};  //var: 21
 
         System.out.print("Початковий масив: ");
         printArray(arr);
@@ -18,12 +18,12 @@ public class SelectionSort {
             for (int j = i + 1; j < n; j++){
 
                 if (arr[j] < arr[min]){
-                    System.out.print("    j = " + j + "; arr[j] < arr[min] (True) -> ");
+                    System.out.print("    j = " + j + "; arr[j]  < arr[min]: "+ arr[j] + " < " + arr[min] +" (True) -> ");
                     min = j;
                     System.out.println("min = j = " + min); // New minimum found
                 } else {
 
-                    System.out.println("    j = " + j + "; arr[j] < arr[min] (False)");
+                    System.out.println("    j = " + j + "; arr[j] < arr[min]:  "+ arr[j] + " < " + arr[min] +"(False) ");
                 }
             }
 
